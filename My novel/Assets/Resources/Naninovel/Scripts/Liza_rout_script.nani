@@ -1,0 +1,44 @@
+
+# start
+@choice  button:Global_map_button handler:Global_map goto:.Map
+@hideUI Quest_log
+{name}: Here you go Lisa. We're even.
+
+Kris.Cry: Well, you’re a bastard. After everything that happened between us, it’s a knife in the back. What’s the point?
+Lisa.Smile: Once I was able to get him drunk, and then he almost talked about it in public...
+{name}: Shut up! A contract is a contract. Another word and you will never see me again.
+Lisa: Oh, I scared you, I scared you, now I’m going to wet my pants. Ahaha.
+{name}: You've had me. I'm going home to my tea, a warm blanket and cat videos.
+@hideAll
+Later...
+# Map
+@hideAll
+@back Map
+@choice  button:Bar pos:-900 handler:Map goto:.Bar
+
+@choice  button:Appartment pos:0 handler:Map goto:.Appartment
+@choice  button:Lab pos:900 handler:Map goto:.Map
+@stop
+# Bar
+@choice  button:Global_map_button handler:Global_map goto:.Map
+@back Bar
+Lisa.Debauchery: Hey, former debtor, here! Come here.
+{name}: Don't call me that.
+Lisa.Happy: Ahaha, come on. I'm really grateful. I was able to put the chip into mass production. Of course, the functionality had to be trimmed a little... But don't give the cream of the crop to just anyone. You can do a lot of bad things with this thing, you know li.
+{name}: And as always, you won't forget about yourself.
+Lisa.Smile: Of course. Who else will take care of me, poor thing. By the way, come.
+I approached and Lisa, with a deft, cat-like graceful movement, jumped onto my neck and wrapped her arms around it
+@sfx Poceluy
+"Smack"
+{name}: This is something new.
+I was confused by this change in behavior.
+Lisa.Debauchery: This is to thank you for your efforts. Fool.
+@title
+# Appartment
+@hideAll
+@choice  button:Global_map_button handler:Global_map goto:.Map
+@back Apartment
+Kris.Angry: Who’s there? Oh, you’re the traitor. What are you up to?
+{name}: I want to talk.
+Kris: We have nothing to talk to you about. Get out.
+@title

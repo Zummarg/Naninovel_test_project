@@ -1,0 +1,38 @@
+
+# start
+@choice  button:Global_map_button handler:Global_map goto:.Map
+@hideUI Quest_log
+"I felt a wild, irrational desire to keep the chip.""I felt a wild, irrational desire to keep the chip."
+“I don’t know what to do with it or how to use it, but I feel it as part of me.”
+"It's like they're asking me to give up my arm or my leg."
+
+{name}: No. I changed my mind. I keep the chip.
+Lisa.Angry: It’s too early for you to think! This is a robbery in broad daylight. If you don’t give my chip back in good faith, then we will talk to you in the language that you understand.
+Kris.Angry: He’s useless to you! You know it yourself. What kind of greed is this?
+{name}: Do what you want. I keep the chip, period.
+@hideAll
+Later...
+# Map
+@hideAll
+@back Map
+@choice  button:Bar pos:-900 handler:Map goto:.Bar
+
+@choice  button:Appartment pos:0 handler:Map goto:.Appartment
+@choice  button:Lab pos:900 handler:Map goto:.Map
+# Bar
+@choice  button:Global_map_button handler:Global_map goto:.Map
+@hideAll
+@back Bar
+Lisa.Angry: Oh. Our thief has arrived! What have you forgotten here, freak?
+{name}: I wanted to explain...
+Lisa.Angry: I saw your excuses in the coffin. Get out.
+@title
+# Appartment
+@hideAll
+@choice  button:Global_map_button handler:Global_map goto:.Map
+@back Hallway
+Knock-Knock
+Kris: Who's there? Oh, you're the greedy one. What's wrong with you?
+{name}: I want to talk.
+Kris: We have nothing to talk to you about. Get out
+@title

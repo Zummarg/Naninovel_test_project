@@ -1,0 +1,117 @@
+
+
+# 6e53e18d
+; @input name summary:"What is your name?"
+@input name summary:"Как тебя зовут?"
+
+# c8e6b947
+; “Today I have a bad feeling, as if a catastrophe is approaching, a tsunami that you won’t see until it’s too late.”
+Сегодня меня не покидает плохое предчуствие, как будто надвигается катастрофа, цунами, которого не увидишь до тех пор, пока уже не будет поздно.
+
+# 8f8302c1
+; And the situation was not conducive to a positive attitude - mud, puddles and the howling of such a strong wind, which in world literature is called ominous...
+И обстановка не располагала к позитивному настрою - грязь, лужи и завывания такого сильного ветра, который в мировой литературе называют зловещим...
+
+# ab7d83ff
+; And the closer I get to the goal, the stronger the premonition becomes, sometimes a small trembling begins to run through.
+И чем ближе я к цели, тем сильнее становиться предчуствие, иногда начинает пробирать мелкая дрожь.
+
+# 3234cba0
+; At some point, the thought even appeared: “Shouldn’t I forget about this meeting and go home, wrap myself in a cozy blanket and hide from all the problems, like children hide from monsters in their beds
+В какой то момент даже появилась мысль "А не забить ли мне на эту встречу и пойти домой, закутаться в уютный пледик и спрятаться от всех проблем как прячуться дети от подкроватных монстров".
+
+# 881a9dc2
+; But with an effort of will, I was still able to drive away negative thoughts from myself and entered the bar, where they were already waiting for me.
+Но усилием воли я все таки смог отогнать от себя негативные мысли и вошел в бар, где меня уже ждали.
+
+# 4218a2dd
+; There was a quiet hum of voices in the bar, arguing, undoubtedly about great things, over glasses of whiskey and sweet cocktails.
+В баре стоял тихий гул голосов, спорящих, несомненно о великом, за бакалами виски и сладкими коктейлями
+
+# 614fc1c7
+; Lisa: Hey, {name}, where are you climbing?! How dare you make such a beauty wait? Do you even know what politeness is? Or punctuality?” a high girlish voice was heard, easily interrupting all extraneous sounds, which is simply impossible not to pay attention, and I headed towards its source.
+Lisa: Эй, {name}, ты где лазишь?! Как ты смеешь заставлять такую красавицу ждать? Ты вообще знаешь что такое вежливость? Или пунктуальность? - послышался высокий девичий голос, с легкостью перебившый все посторонние звуки, на который просто невозможно не обратить внимания, и я направился к его источнику.
+
+# 3e62b71
+; {name}: Oh, it seems you’ve never heard of modesty. Who calls herself a “beauty”? She called herself, why are you muttering?
+{name}: А, ты похоже никогда не слышала о скромности. Кто же называет саму себя "красавицей"? Сама же позвала, чего бурчишь?
+
+# e2b15c50
+; Lisa: I forgot to ask you! I called you, so it’s necessary! Lisa: You should actually be jumping with happiness that such a cutie found time for you.
+Lisa: Тебя спросить забыла! Позвала - значит надо! Ты вообще долже прыгать от счастья, что такая милашка нашла на тебя время.
+
+# b7078fb8
+; {name}: Okay, okay beautiful, so what's the matter?
+{name}: Ладно, ладно красавица, так в чем дело?
+
+# 1d7b6400
+; Lisa.Happy: I wish I could do it right away. But the fact is that I need to take something important from one evil woman, but she refuses to talk to me.
+Lisa.Happy: Вот так бы и сразу. А дело в том, что мне нужно забрать кое-что важное у одной злюки, а со мной она разговаривать отказывается.
+
+# ea242dd5
+; And I can understand her...
+И я могу ее понять...
+
+# d140a08e
+; Lisa.Angry: I don’t like your facial expression.
+Lisa.Angry: Что-то мне не нравиться твое выражение лица.
+
+# 61c5721b
+; {name}: You never liked it. So who is this "evil one"? And what should you take from her?
+{name}: Оно тебе никогда не нравилось. Так кто эта "злюка"? И что нужно у нее забрать?
+
+# e80ddabc
+; Lisa.Angry: What do you think? Of course this little girl, Chris, damn her!
+Lisa.Angry: А ты как думаешь? Конечно же эта малявка, Крис, черт бы ее побрал!
+
+# e214c13a
+; Lisa.Smile: Well, come to think of it, I was joking a little, but that’s not a reason to take away the chip I’ve been working on for so long.
+Lisa.Smile: Ну подумаешь подшутила немного, но это же не повод забирать чип, над которым я так долго работала.
+
+# 5a93cd64
+; {name}: The one for watching videos with cats from the Internet?
+{name}: Тот самый для просмотра видео с котиками из интернета?
+
+# 62eb3517
+; Lisa.Angry: You’re a cat yourself! This is a neural interface for accessing the network from anywhere on the planet! You can’t even imagine how it can expand the computing capabilities of the brain.
+Lisa.Angry: Сам ты котик! Это нейроинтерфейс для выхода в сеть из любой точки планеты! Ты даже не представляешь как он может расширить вычислительные возможности мозга.
+
+# cdb784e0
+; Lisa.Default: But what am I explaining to you, you’re an idiot, you just want to look at cats and naked women on the Internet.
+Lisa.Default: Хотя что я тебе объясняю, ты же дуб-дубом, тебе лишь бы на котиков и голых баб в интернете смотреть.
+
+# 5efa9415
+; {name}: It is what it is.
+{name}: Что есть - то есть.
+
+# 77fa26ae
+; “It’s useless to argue with this fury anyway.”
+Все равно спорить с этой фурией - бесполезно.
+
+# b0c06339
+; {name}: And what did you do?
+{name}: И что же ты такого натворила?
+
+# cf804a13
+; Lisa.Smile: Well, I hid something on her computer, it’s funny. She doesn’t understand jokes at all.
+Lisa.Smile: Ну спрятала я кое-что у нее в компьютере, прикольно же. Совсем она шуток не понимает.
+
+# d94c277f
+; Lisa.Default: In short, if you suddenly forgot, you owe me for that incident in...
+Lisa.Default: Короче, если ты вдруг забыл, ты мне должен за тот случай в...
+
+# a70d755e
+; {name}: Be silent! I remember everything, there is no need to remind me of this. Never. Better tell me where Chris is, yes, I'm off, you know yourself that I can't stand alcohol.
+{name}: Молчать! Все я помню, не надо напоминать об этом. Никогда. Лучше скажи где Крис, да я пошел, ты же сама знаешь что я не переношу алкоголь.
+
+# da652058
+; "And of course she invited me to the bar."
+И при этом она конечно же позвала меня в бар.
+
+# 4454d1d0
+; Lisa.Debauchery: Where, where, where usually, she doesn’t leave her apartment at all, it seems to me that she has long grown together with her into a single organism.
+Lisa.Debauchery: Где-где, где обычно, она вообще из своей квартиры не выходит, мне кажеться что она уже давно срослась с ней в единый организм.
+
+# 358d7444
+; {name}: Okay, but this is the last time, I don't like being an errand boy.
+{name}: Хорошо, но это в последний раз, не люблю я быть мальчиком на побегушках.

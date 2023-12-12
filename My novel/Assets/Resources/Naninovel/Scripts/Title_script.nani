@@ -1,0 +1,5 @@
+
+@bgm Main volume:0.2
+@back Skyline
+@spawn Rain wait:false
+@stop

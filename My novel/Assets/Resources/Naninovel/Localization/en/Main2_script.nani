@@ -1,0 +1,140 @@
+
+# Location2
+@back Building
+
+@choice  button:Global_map_button handler:Global_map goto:Main.Map
+"Premonitions never deceive me. Today I was convinced of this again. The last thing I wanted was to get involved in women's squabbles. It never ended well."
+@back Hallway
+“Sometimes it’s amazing how different the apartment is inside and outside; the hall seems to have magically moved here from another building.”
+Ting.
+Ting.
+Ting.
+Knock-Knock.
+
+Kris: Yes, I’m coming, I’m coming. Stop playing around!
+A dissatisfied, muffled, but very soft voice was heard.
+Kris: Who else brought it? I didn’t order anything, and I won’t buy anything either!
+{name}: Open. Police.
+There was a clumsy scramble behind the door, a quick stomp of short legs and a panicked cry.
+Kris: Oh! Yes, I’m already running. What is it this time? Again this bastard from below complained about the noise? I told him a hundred times already that you can’t turn off the equipment! I’m still a scientist, and he... Ah!
+The door slowly opened and Chris’s worried face looked out.
+@back Apartment
+@char Kris pos:35 appearance:Surprise scale:0.5
+Kris: Hey! You! How are you?! What kind of jokes are these?!
+{name}: Hi Chris, long time no see.
+I smiled, she always reacts funny to such jokes.
+Kriss.Angry: I wouldn’t have seen you for as long as at least! I already forgot how you ran away from me and didn’t send a single message, not a call, not a meme... Oh, I love you so much, especially your stupid one little head.
+{name}: Yeah, and even more you love to drill holes in it and insert all sorts of obscene pieces of iron into it! Last time I ate my legs, otherwise I would now be some kind of walking toaster.
+"And it would be lucky if the walkers..."
+Kris.Neutral: {name} what are you saying?! I'm a professional, I would make you a hundred times smarter, you have no idea what you're giving up!
+{name}: I represent everything. You can’t even pronounce this word, what a fucking professional you are.
+Kris.Smile: Hmph... Isn't it cool to always be able to make a couple of toasts?
+"Terrible woman."
+{name}: If it’s so cool, why haven’t you installed such a piece of hardware yet?
+Kris.Neutral: I have something to lose, but you already have a wind in your head.
+{name}: Okay, get out of my head, that's not what I actually came here for.
+Kris.Surprise: Yessss..? Why did you come then?
+{name}: Lisa...
+Kris.Angry: Get out!
+{name}: Chris, don't be so mean.
+Kris.Angry: Evil? Do you even know what this bitch did? She put a ROTTEN EGG in my computer! It smelled like a grave for a whole week! And now this bastard sent you for her damn chip. NO WAY !
+{name}: Come on, you know that she doesn't know how to joke, well, she went a little overboard.
+Kris.Angry: A little? Yes, they almost kicked me out of the apartment? Do you know how crazy my neighbor is? He almost immediately sets the lawmen on me.
+{name}: Well, why should I ask you on my knees? I don’t really want to deal with her myself, she’s not only making fun of you if you didn’t know. Treat your fellow sufferer humanely.
+Kris.Neutral: Why do you need this, since you don't like her?
+{name}: Let's just say I owe her a lot...
+Kris.Laugh: Hmph. You owe me a lot too! You took it and ran away, after everything that happened between us.
+{name}: Nothing happened. Don't make it up.
+Kris.Neutral: Well, you’re offending me again. Is that really how they ask for a favor?
+{name}: Eh... okay. What do you want? Just no toasters or other hardware.
+Kris.Smile: Hehe, okay, that’s later, but now I’m doing some interesting research...
+{name}: Well, it's begun! What did I tell you about the glands?!
+Kris.Laugh: Don’t fuss, I won’t insert anything into you, at least for now.
+Kris.Neutral: According to my data, the brains of people with alcohol intolerance are very different from others. A specific neurotransmitter.
+Kris.Neutral: This is a thing that affects many processes in the brain, including memory and speed of thinking. Maybe that’s why you’re so slow-witted.
+{name}: Just don't insult me. Not everyone, you know, is a brilliant scientist like you
+Kris.Neutral: Okay, there’s no point in explaining to you anyway. Let me show you better. Just collecting data, it doesn’t hurt.
+Chris walked away and took from the shelf some strange, metallic, oblong object that looked like a probe.
+{name}: And it doesn't hurt? Yes, this thing will burn my brain!
+Kris.Smile: It won’t burn. This is a special tool for tracking brain waves. I won’t insert it into you, I’ll just put it on your head and that’s it.
+{name}: And it doesn't hurt? Yes, this thing will burn my brain!
+“But now I could be under a warm blanket...”
+@minigame wait:true
+
+Kris.Smile:You see. And it doesn’t hurt a bit. And you were afraid like a little girl.
+{name}:Oh... This doesn't feel good.
+Kris.Smile: Okay, I’m not Lisa, I keep my word
+Chris went back to her bottomless shelf and took out something that looked like a postage stamp with very small transistors soldered in.
+Kris.Neutral: Here, take it.
+I looked at her suspiciously
+{name}: Is this really him? It looks kind of strange...
+Kris.Laugh: Heh, I modified it a little, she’ll like it.
+"For some reason her smile alarmed me."
+{name}: Is this really him? It looks kind of strange...
+Kris.Neutral: Don’t worry, if you want you can check it, go up to the floor above, there’s my laboratory, you can check it yourself. And it’s time for me to study the data received. I can’t wait, let’s go already, I don’t need you anymore for now.
+@set "mission_name=\"Check the chip in the laboratory\""
+{name}: Okay, good luck, Chris.
+@hideChars
+@back Lab
+“And how can I test it if I don’t even know how this thing works?”
+“The main thing is not to break the chip, otherwise Lisa will break something for me later.”
+“It was not in vain that I endured this torture.”
+“And here I stand and look at all this junk like a ram at a new gate.”
+At random, we managed to find where this chip can be inserted - some strange device that looks like it should read small credit cards. And a touch panel on top, with a trace in the form of a palm print.
+{name}: Well, it was - it wasn’t.
+I insert the chip, put my hand on the touchpad that lights up green.
+WHAM
+Burning pain, first in my arm, then in my elbow, then in my shoulder, as if a snake was gnawing through my whole body straight to my brain.
+@hideAll
+@hideUI Quest_log
+Everything became quiet. The sounds died down. It was as if you were sleeping and awake at the same time
+The passage of time seemed to slow down.
+“Is this death? I always knew that all the problems were caused by women...”
+@sfx BEEP
+Beep
+Cheap: The neurointerface has been successfully installed. Please be careful, you may experience slight dizziness.
+@back Lab tint:#ffdc22
+@bgm Sakura
+@showUI Quest_log
+I don’t know how long I lay there like that, but my first thought was to get away from here as far as possible and never contact either Chris or Lisa again
+“The colors seemed to become brighter, more saturated.”
+Although time had returned to its course, it was still noticeably slower than before the loss of consciousness.
+Having calmed down a little, I came to the conclusion that the worst was already behind me, and it would be stupid to run away now.
+“Yes, and I have nowhere to run.”
+“I need to find out what happened to me, and in general how long I lay here.”
+@set "mission_name=\"Talk to Chris\""
+@back Hallway
+I walked back down to Chris's apartment.
+Ding - ding - ding
+Knock-Knock
+{name}: Open up police!
+There was dead silence outside the door.
+{name}: Have I been lying around so long that she's already gone?
+{name}: Eh, okay, who knows what got into her head, it's time to finish this matter.
+@set "mission_name=\"Return the chip to Lisa\""
+@back Building_outside
+"The same view. The same dirt, the same puddles. Only somehow even darker than before. Especially the wind, now it seemed not just ominous, but deadly."
+“Are these really all the consequences of interacting with the chip? I didn’t put it in my head.”
+My hand felt the chip in my pocket and my mood worsened even more.
+"It's time to end this."
+@back Bar
+@char Lisa pos:25 appearance:Angry
+Lisa: Hey, {name}, where are you climbing?! How dare you keep such a cutie waiting
+@char Kris pos:70 appearance:Smile scale:0.4
+
+Kris: {name} we're here. Come join us.
+{name}: So that's where you went. And I was already afraid that you forgot about food and died while doing your research.
+Kris.Neutral: Yes, right now! Unlike you, I have a head in the right place, and my brain needs a lot of energy. Speaking of research, I found out something like this, you won’t believe it.
+Lisa.Angry: No research! Chris, I already told you, this is not discussed! I developed the chip, and you just helped a little. It’s mine, period!
+{name}: What is it that I won't believe?
+Kris.Smile: It turns out that your brain is ideal for using neural interfaces; if you insert this thing, your efficiency will increase by 300%. This will make you practically a superman in calculations.
+Lisa.Debauchery: 300% of 0 is 0. Not even discussed.
+Kris.Laugh: Ahaha. And that’s true. But for such a brilliant scientist like me, it will certainly be useful for research, so I want you to return it to me.
+Lisa.Angry: You never know what you want, computer mouse. The chip is mine, you stole it, cat thief. So don’t even hope.
+Kris.Laugh: So a mouse or a cat?
+Lisa.Angry: Yes, even a torn goat! The chip is mine, period.” name “give it here.
+
+@choice "Give it to Lisa" goto:Liza_rout_script.start
+@choice "Give it to Kris" goto:Kris_rout_script.start
+@choice "To keep for yourself" goto:Self_rout_script.start
+@stop

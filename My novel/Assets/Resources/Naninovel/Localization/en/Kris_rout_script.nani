@@ -1,0 +1,49 @@
+
+# start
+@choice  button:Global_map_button handler:Global_map goto:.Map
+@hideUI Quest_log
+{name}: Chris, will you explain to me why the hell you sent me to the lab with the chip?
+Kris:There are tools there for analyzing the device’s mac address. Why are you asking, since you spent half a day there?
+Lisa: Let’s have some small talk later, give me the chip and I’ll go, I’m already running out of time because of this mess.
+{name}: Well, I inserted the chip, put my palm on top and it was as if I was shocked. I passed out for an unknown amount of time and my head is still cracking.
+Kris.Surprise: What did you do?!
+Lisa.Angry: Where. Did. You. Insert. My! Chip?
+{name}: Where it was inserted, I pushed it there.
+Kris: This is a prototype for contactless information reading! It’s not finished yet! How did you even turn it on? The consequences for the body can be unpredictable!
+
+Lisa: Did you copy MY chip into your brain?
+{name}: As if I’m a scientist here. How should I know where to insert it?
+{name}: So what are the consequences?
+Kris.Neutal: I’m telling you they can be unpredictable. Maybe your head will explode. This needs to be studied, come to my laboratory, this is the only way we have a chance to understand what happened to you. And give me the chip, without it we won’t be able to understand what do.
+Lisa.Default: Yes. No. Not discussed, give me the chip and go treat your head to your heart’s content, your problems don’t concern me.
+{name}: Sorry, but I need my head for now, as soon as we figure everything out, you'll get your chip back, but for now it will stay with Chris.
+
+@hideAll
+Later...
+
+# Map
+@back Map
+@choice  button:Bar pos:-900 handler:Map goto:.Bar
+@choice  button:Appartment pos:0 handler:Map goto:.Appartment
+
+@choice  button:Lab pos:900 handler:Map goto:.Map
+@stop
+# Bar
+@hideAll
+@choice  button:Global_map_button handler:Global_map goto:.Map
+@back Bar
+
+Lisa.Angry: Oh. Our thief has arrived! What have you forgotten here, freak?
+{name}: I wanted to explain...
+Lisa.Angry: I saw your excuses in the coffin. Get out.
+@title
+# Appartment
+@hideAll
+@choice  button:Global_map_button handler:Global_map goto:.Map
+@back Hallway
+"Knock-Knock"
+@back Appartment
+Kris.Smile: Oh, you've finally come, my cute guinea pig.
+{name}: Don't call me that. It sounds creepy.
+Kris.Laugh: Ahaha, well, who’s to blame for you that you don’t know that you can’t stick your fingers into a socket. As they say, force a fool to pray to God - so he’ll hurt his forehead. Let me kiss you on your empty little head.
+@title

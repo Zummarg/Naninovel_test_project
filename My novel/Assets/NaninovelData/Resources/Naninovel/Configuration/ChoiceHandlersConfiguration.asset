@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38acf29c06b5d7e41aecac8361cc7e57, type: 3}
+  m_Name: ChoiceHandlersConfiguration
+  m_EditorClassIdentifier: 
+  DefaultDuration: 0.35
+  DefaultEasing: 0
+  AutoShowOnModify: 1
+  DefaultHandlerId: ButtonList
+  ChoiceButtonLoader:
+    PathPrefix: 
+    ProviderTypes:
+    - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  DefaultMetadata:
+    Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    Loader:
+      PathPrefix: ChoiceHandlers
+      ProviderTypes:
+      - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    guid: 89451363-0543-4d07-b24d-2be93fe49123
+    customData:
+      rid: -2
+    WaitHideOnChoice: 0
+  Metadata:
+    ids:
+    - ButtonList
+    - ButtonArea
+    - ChatReply
+    - Map
+    - Global_map
+    metas:
+    - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: ChoiceHandlers
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: 0b9f2493-7eba-46f7-b9a3-370e98395e7e
+      customData:
+        rid: -2
+      WaitHideOnChoice: 0
+    - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: ChoiceHandlers
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: 8de946c1-c5b4-40db-8287-38c3c815a26d
+      customData:
+        rid: -2
+      WaitHideOnChoice: 0
+    - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: ChoiceHandlers
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: e46456d8-daf2-45c3-b95e-cd938dfe0bd0
+      customData:
+        rid: -2
+      WaitHideOnChoice: 0
+    - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: ChoiceHandlers
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: e9099d13-fd2c-452d-b0f3-d08df69e21a7
+      customData:
+        rid: -2
+      WaitHideOnChoice: 0
+    - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: ChoiceHandlers
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: ca2541db-a439-4999-9e42-7bdf40011204
+      customData:
+        rid: -2
+      WaitHideOnChoice: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
